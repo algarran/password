@@ -1,16 +1,4 @@
-// var upperCharacters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O',
-//  'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
-//  var lowerCharacters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o",
-//  "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-
-//  var numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
-
-// var specialCharacters = ["!", "#", "@", "$", "%", "^", "&", "*", "(", ")", "-", "_", "+", "=", "?", "/", "<", ">"]
-
-// 
-// 
-// 
 var passwordLength = prompt("How long do you want your password to be?");
 
 if(passwordLength < 8 || passwordLength > 128 ){
@@ -48,15 +36,8 @@ if(specialCharacters){
 
 function generate(){
 
-
     //possible password values
     let password = "";
-
-    // while(password.length <= length){
-    //     password += avail.charAt(Math.florr(Math.random()* avail.length));
-    // }
-
-    
 
     // //create for loop to choose password characters
     for(var i = 1; i <= passwordLength; i++){

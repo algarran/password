@@ -7,7 +7,7 @@ body{
 }
 
 .content{
-    max-width: 500px;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -20,11 +20,11 @@ h1{
 h2{
     font: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+    text-align: center;
 }
 
 #boxshadow{
-    width: 420px;
+    width: 100%;
     resize: vertical;
     margin: auto;
     overflow: auto;
@@ -44,7 +44,7 @@ h2{
     size: 60%;
 }
 hr{
-    width: 505px;
+    width: 100%;
 }
 
 #password{
