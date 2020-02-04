@@ -1,5 +1,5 @@
 body{
-    background-color: #f4f4f4
+    background-image: url(password.jpeg);
 }
 
 .wrapper{
@@ -15,6 +15,7 @@ h1{
     font: 150px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    color: white;
 }
 
 h2{
